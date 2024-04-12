@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+
+main {
+   width: 100vw;
+   height: 100vh;
+   position: relative;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.589);
+
+    width: 363px;
+    height: 620px;
+    position: absolute;
+    overflow: hidden;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#img {
+    display: block;
+    background-image: url(../imagens/image-product-mobile.jpg);
+    background-size: cover;
+    height: 40%
+}
+
+section > p#sub {
+    padding: 20px 0px 10px 20px;
+    font-family: Montserrat;
+    font-size: 11px;
+    color: rgb(107, 107, 107);
+}
+
+section > h1 {
+    font-family: "Fraunces";
+    font-size: 2.1em;
+    padding: 0px 20px 0px 20px;
+}
+
+section > p#descripion {
+    padding: 10px 5px 0px 20px;
+    font-family: Montserrat;
+    color: rgb(107, 107, 107);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+section > p#price {
+    padding: 20px 20px 0px 20px;
+    font-family: "Fraunces";
+    font-size: 2em;
+    font-weight: bolder;
+    color: hsl(122, 100%, 25%);
+}
+
+section > a {
+    display: block;
+    font-family: Montserrat;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: hsl(122, 100%, 25%);
+    color: white;
+
+    width: 89.7%;
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+}
