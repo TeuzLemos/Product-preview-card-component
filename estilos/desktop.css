@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {  
+   section{ 
+    width: 730px;
+    height: 550px;
+   }
+
+   section div#corpo {
+    float: right;
+    width: 50%;
+    height: 50%;
+   }
+   
+   section div#img{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-image: url(../imagens/image-product-desktop.jpg);
+   }
+
+   div#corpo > p#sub {
+      font-size: 14px;
+      margin:  35px 0px 20px 30px;
+   }
+
+   div#corpo > h1 {
+      font-size: 2.5em;
+      margin: 0px 40px 0px 30px;
+   }
+
+   div#corpo > p#descripion {
+      margin: 30px 60px 0px 30px;
+      line-height: 1.7em;
+      font-size: 17px;
+   }
+
+   div#corpo > p#price {
+      margin: 30px 20px 10px 30px;
+      font-size: 2.3em;
+   }
+
+   div#corpo > a {
+      width: 80%;
+      height: 55px;
+      transform: translate(6.1%);
+   }
+}

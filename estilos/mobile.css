@@ -35,6 +35,7 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: width 0.3s, height 0.3s;
 }
 
 div#img {
@@ -45,7 +46,7 @@ div#img {
 }
 
 section  p#sub {
-    padding: 20px 0px 10px 20px;
+    margin: 20px 0px 10px 20px;
     font-family: Montserrat;
     font-size: 11px;
     color: rgb(107, 107, 107);
@@ -54,11 +55,11 @@ section  p#sub {
 section  h1 {
     font-family: "Fraunces";
     font-size: 2.1em;
-    padding: 0px 20px 0px 20px;
+    margin: 0px 20px 0px 20px;
 }
 
 section  p#descripion {
-    padding: 10px 5px 0px 20px;
+    margin: 10px 5px 0px 20px;
     font-family: Montserrat;
     color: rgb(107, 107, 107);
     font-size: 16px;
@@ -67,7 +68,7 @@ section  p#descripion {
 
 section  p#price {
     display: inline-block;
-    padding: 20px 20px 0px 20px;
+    margin: 20px 20px 0px 20px;
     font-family: "Fraunces";
     font-size: 2em;
     font-weight: bolder;
